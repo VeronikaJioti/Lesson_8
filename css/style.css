@@ -75,7 +75,7 @@ a {
   height: 150px;
   margin: 0 auto;
   position: relative;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .mainbox h2{
@@ -115,6 +115,8 @@ a {
  .btn1, .btn2 {
    width: 80px;
    background-color: #fff;
+   font-size: 14px;
+   text-align: center;
    opacity: 80%;
    padding: 5px;
    border-radius: 10px;
