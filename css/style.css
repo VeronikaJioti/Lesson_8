@@ -17,6 +17,7 @@ a {
 .leftbar {
   float: left;
   padding: 10px;
+  margin-left: 20px;
 }
 
 .circle {
@@ -56,6 +57,7 @@ a {
 .rightbar {
   float: right;
   padding: 10px;
+  margin-right: 20px;
 }
 
 .text1, .text2 {
@@ -63,4 +65,71 @@ a {
   margin-right: 10px;
 }
 
+.clr {
+  clear: both;
+}
 /* Sections */
+
+.box1 {
+  width: 90%;
+  height: 150px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 20px;
+}
+
+.mainbox h2{
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.mainbox img {
+  width: 100%;
+  height: 150px;
+}
+
+.secondbox {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+ }
+
+ .secondbox h2, p {
+  color: #fff;
+ }
+
+ .secondbox h2 {
+   font-size: 20px;
+   margin-bottom: 10px;
+ }
+
+ .secondbox p {
+   font-size: 14px;
+   opacity: 80%;
+   margin-bottom: 10px;
+ }
+
+ .btn1, .btn2 {
+   width: 80px;
+   background-color: #fff;
+   opacity: 80%;
+   padding: 5px;
+   border-radius: 10px;
+  }
+
+  .btn2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .header3 {
+    position: absolute;
+    top:15px;
+    right: 100px;
+    color: #fff;
+    font-size: 12px;
+    opacity: 80%;
+  }
