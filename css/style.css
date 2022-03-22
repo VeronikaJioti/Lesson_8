@@ -272,7 +272,8 @@ a {
   float: left;
   margin-top: 10px;
   margin-left: 25px;
-  animation: cube 10s infinite;
+  animation: cube 10s infinite linear;
+  /* animation-timing-function: linear; */
   }
 
 @keyframes cube{
@@ -287,7 +288,7 @@ a {
   float: right;
   margin-top: 110px;
   margin-right: 25px;
-  animation: cube1 10s infinite;
+  animation: cube1 10s infinite linear;
   }
 
   @keyframes cube1{
